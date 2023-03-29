@@ -9,7 +9,7 @@
     h3, h4{
         font-size: large;
         text-transform: uppercase;
-        color: purple;
+        color: #D92211;
         font-family: 'Poppins', sans-serif;
     }
     h5{
@@ -34,7 +34,7 @@
                         .moveTitle{
                             font-weight: bold;
                             font-style: normal;
-                            color: purple;
+                            color: #D92211;
                         }
                     }
                 }
@@ -167,6 +167,9 @@
                                     background: #efefef;
                                     box-shadow: 2px 2px 4px #c8d0e7, -1px -1px 3px #fff;
                                     color: #585858;
+                                &:hover{
+                                    color:#F2911B;
+                                }
                                 &:active {
                                     box-shadow: inset 1px 1px 3px #c8d0e7, inset -1px -1px 3px #fff;
                                 }
@@ -215,10 +218,10 @@ footer{
     a{  
         font-size: 1.5rem;
         text-decoration: none;
-        color: purple;
+        color: #D92211;
         transition: all ease .5s;
         &:hover{
-            color: aquamarine;
+            color: #F2911B;
         }
     }
 }
@@ -253,7 +256,7 @@ footer{
                             .moveTitle{
                                 font-weight: bold;
                                 font-style: normal;
-                                color: purple;
+                                color: #D92211;
                             }
                         }
                     }
@@ -371,7 +374,7 @@ footer{
                             .moveTitle{
                                 font-weight: bold;
                                 font-style: normal;
-                                color: purple;
+                                color: #D92211;
                             }
                         }
                     }
